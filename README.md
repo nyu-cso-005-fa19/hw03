@@ -77,9 +77,9 @@ characters have weight 1.
 
 For a given code tree, we obtain the encoding of a character by
 traversing the tree from the root to the leaf containing the
-character. Along the way, every time we take a branch to the left, we add
+character. Along the way, every time we take a branch to the left, we append
 0 to the representation and every time we take a branch to the right, we
-add 1. Thus, the tree above encodes the character `'H'` as `1110` and
+append 1. Thus, the tree above encodes the character `'H'` as `1110` and
 the character `'l'` as `01`.
 
 Decoding a bit sequence begins at the root of the tree. We read the
