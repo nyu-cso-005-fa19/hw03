@@ -204,7 +204,7 @@ implement a function
 code_tree* make_fork(code_tree* l, code_tree* r);
 ```
 
-that takes two code trees and combines them two a larger tree by
+that takes two code trees and combines them to a larger tree by
 connecting them to a newly allocated root node to be returned by the
 function. Make sure that the new root node has the correct weight.
 
